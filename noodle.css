@@ -1,0 +1,36 @@
+img{
+    height: 500px;
+    width: 500px;
+    transition: all 0.3s;
+}
+
+img:hover{
+    transform: scale(1.5,1.5);
+}
+
+h3{
+    font-family: JasmineUPC;
+    padding-left: 20%;
+    font-size: 30px;
+}
+h2{
+    font-family: JasmineUPC;
+    padding-left: 15%;
+    font-weight: bold;
+    font-size: 100px;
+}
+h1{
+    font-family: JasmineUPC;
+}
+.wallpaper{
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.75),
+        rgba(255, 255, 255, 0.75)),
+        url(images/noodle.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    background-attachment: fixed;
+}

@@ -1,0 +1,9 @@
+img{
+    width: 690px;
+    height: 450px;
+    transition: all 0.3s;
+    text-align: center;
+}
+img:hover{
+    transform: scale(1.5,1.5);
+}
